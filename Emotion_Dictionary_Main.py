@@ -197,4 +197,4 @@ def main():
     tertiary(second_emotion)
 
 
-main()
+main()      # this is main function
