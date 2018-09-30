@@ -13,7 +13,7 @@ def while_check(emotion, list_of_feelings):
 
 def secondary_emotion(emotion):
     """
-    checks the input from user and uses the corresponding list
+    checks the input from user and uses the corresponding list m
     :param emotion:
     :return:
     """
