@@ -18,7 +18,7 @@ def secondary_emotion(emotion):
     :return:
     """
     if emotion == "sad":
-        list_of_secondary = ["guilty", "ashamed", "depressed", "lonely", "bored", "abandoned", "despair"]
+        list_of_secondary = ["guilty", "depressed", "lonely", "bored", "abandoned", "despair"]
     elif emotion == "happy":
         list_of_secondary = ["joyful", "interested", "proud", "accepted", "powerful", "peaceful", "intimate", "optimistic"]
     elif emotion == "angry":
@@ -159,7 +159,8 @@ def main():
     asks the user what they are feeling and runs the appropriate function
     :return:
     """
-    emotion = input("Hello, how are you feeling? Do you feel fear, angry, happy, or sad? ")
+    print("Hello, want to better understand how you or someone else is feeling? Which one best relates to how ")
+    emotion = input("you or someone else feels: fear, angry, happy, or sad ")
     primary_emotions = ["sad", "happy", "angry", "fear"]
     first_emotion = while_check(emotion, primary_emotions)
     print()
