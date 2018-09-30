@@ -1,5 +1,3 @@
-import time
-
 
 def while_check(emotion, list_of_feelings):
     """
@@ -40,146 +38,118 @@ def tertiary(emotion):
 # start of happy emotions
     if emotion == "joyful":
         print()
-        time.sleep(1)
         print("People who feel joyful have a feeling of great pleasure and happiness. They feel ecstatic and/or ")
         print("liberated from what they have done.")
     elif emotion == "interested":
         print()
-        time.sleep(1)
         print("People who feel interested show curiosity or concern about something or someone. They might also ")
         print("feel amused and or inquisitive about said thing.")
     elif emotion == "proud":
         print()
-        time.sleep(1)
         print("People who feel proud show deep pleasure or satisfaction as a result of one's own achievements, ")
         print("qualities, or possessions or those of someone with whom one is closely associated. They feel ")
         print("important/confident from what they achieved.")
     elif emotion == "accepted":
         print()
-        time.sleep(1)
         print("People who feel accepted generally feel believed in or recognized to be valid or correct. They also feel")
         print("recognized and fulfilled byt what they have done or achieved.")
     elif emotion == "powerful":
         print()
-        time.sleep(1)
         print("People who feel powerful feel courageous and empowering from something they achieved. They sometimes feel")
         print("on top of the world")
     elif emotion == "peaceful":
         print()
-        time.sleep(1)
         print("People who feel peaceful or at peace feel free from disturbances or a sense of tranquil. They might even")
         print("feel hopeful about what they're doing.")
     elif emotion == "intimate":
         print()
-        time.sleep(1)
         print("People who feel intimate about something or someone this is because they feel very familiar and very ")
         print("acquainted with them. They are usually playful or sensitive about the topic also.")
     elif emotion == "optimistic":
         print()
-        time.sleep(1)
         print("People who feel optimistic feel hopeful and confident about the future events. They might feel inspired ")
         print("or more inspired to do something.")
 # start of sad emotions
     elif emotion == "guilty":
         print()
-        time.sleep(1)
         print("People who feel guilty are feeling their effects of a specific wrongdoing.")
         print("They might also feel remorseful or ashamed for what they have done.")
     elif emotion == "abandoned":
         print()
-        time.sleep(1)
         print("People who feel abandoned feel like they have deserted or given up on. ")
         print("They might also feel ignored or victimized by someone.")
     elif emotion == "despair":
         print()
-        time.sleep(1)
         print("People who feel despair usually feel at a loss or a sense of hopelessness. ")
         print("They also feel powerless or vulnerable to what is happening around them.")
     elif emotion == "depressed":
         print()
-        time.sleep(1)
         print("People who feel depressed feel general unhappiness or despondency. They may")
         print("also feel inferior or empty at times about themselves.")
     elif emotion == "lonely":
         print()
-        time.sleep(1)
         print("People who feel lonely feel without company or in complete solitude. They may also feel")
         print("abandoned or isolated from people.")
     elif emotion == "bored":
         print()
-        time.sleep(1)
         print("People who feel bored feel weary because one is unoccupied in something or lacks interest in current")
         print("activity. They may also feel indifferent or apathetic about the current activity.")
 # Start of fear emotions
     elif emotion == "humiliated":
         print()
-        time.sleep(1)
         print("People who feel humiliated feel ashamed or their dignity and self-respect is .")
         print("They might also feel ridiculed or disrespected by someone.")
     elif emotion == "rejected":
         print()
-        time.sleep(1)
         print("People who feel rejected are dismissed as inadequate to someone else's taste. ")
         print("They might also feel alienated by the person too.")
     elif emotion == "submissive":
         print()
-        time.sleep(1)
         print("People who feel submissive are passive or ready to conform to the authority or will of others. ")
         print("They might also feel insignificant or worthless compared to the other person..")
     elif emotion == "insecure":
         print()
-        time.sleep(1)
         print("")
         print("People who feel insecure may not feel confident or assured. They feel unsafe, inadequate, or inferior.")
     elif emotion == "anxious":
         print()
-        time.sleep(1)
         print("People who feel anxious experience worry, unease, or nervousness about an imminent event or an uncertain")
         print("outcome of something. They might also feel overwhelmed about said thing.")
     elif emotion == "scared":
         print()
-        time.sleep(1)
         print("People who feel scared are scared or frightened from something or someone. They might also feel")
         print("frightened about something.")
 # start of anger emotions
     elif emotion == "hurt":
         print()
-        time.sleep(1)
         print("People who feel hurt feel emotionally attacked or injured by someone or by an event that happened. ")
         print("They might feel devastated or embarrassed by what the person did or event effected them.")
     elif emotion == "threatened":
         print()
-        time.sleep(1)
         print("People who feel threatened fear the possibility of someone's intention to harm or hurt them. ")
         print("They might feel jealous or insecure by the person too.")
     elif emotion == "hateful":
         print()
-        time.sleep(1)
         print("People who feel hateful are filled by hate or feel very unpleasant. ")
         print("They might feel resentful of others.")
     elif emotion == "mad":
         print()
-        time.sleep(1)
         print("People who feel mad are generally very angry at someone or an event that effected them.")
         print("They might also feel enraged or furious about what someone done or what an event had an effect on them.")
     elif emotion == "aggressive":
         print()
-        time.sleep(1)
         print("People who feel aggressive feel likely to confront or attack someone about something and they pursue an")
         print("interest forcefully. They also might act hostile in general.")
     elif emotion == "frustrated":
         print()
-        time.sleep(1)
         print("People who feel frustrated express distress and annoyance for someone or an event that is happening.")
         print("They might also feel irritated or infuriated by said someone or event")
     elif emotion == "distant":
         print()
-        time.sleep(1)
         print("People who feel distant have the sense of feeling faraway or withdrawn from others.")
         print("They might not be intimate or might seem suspicious of others.")
     elif emotion == "critical":
         print()
-        time.sleep(1)
         print("People who feel critical analyzes things extensively about something or someone.")
         print("They might also be skeptical about said person or thing and be sarcastic to them or it.")
 
