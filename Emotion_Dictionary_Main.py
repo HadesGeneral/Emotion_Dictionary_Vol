@@ -7,7 +7,7 @@ def while_check(emotion, list_of_feelings):
     :return:
     """
     while emotion.lower() not in list_of_feelings:
-        emotion = input("Please choose the specific emotion that relates to you most: " + ', '.join(list_of_feelings))
+        emotion = input("Please choose the emotion that is eligible: " + ', '.join(list_of_feelings))
     return emotion
 
 
